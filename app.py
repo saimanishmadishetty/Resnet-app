@@ -88,7 +88,7 @@ st.markdown("""
 
 if uploaded_file is not None:
     vps_model_client = model.ModelClient()
-    model_id = "mdl-j8qcjlxveybp4"
+    model_id = "mdl-66g5caicisx0u"
     image = Image.open(uploaded_file)
     
     # Convert the image to base64
